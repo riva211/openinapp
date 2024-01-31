@@ -1,0 +1,61 @@
+.base{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.vector{
+    display: flex;
+width: 299px;
+justify-content: space-between;
+align-items: center;
+margin-left: 144.5px;
+margin-top: 200.63px;
+}
+.base2{
+    color: #FAFAFB;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.vector2{
+    width: 200px;
+height: 46px;
+flex-shrink: 0;
+margin-top: 40px;
+}
+
+.signin{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.dont{
+    color: var(--Secondary-Text, #858585);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reg{
+ 
+color: var(--Link, #346BD4);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

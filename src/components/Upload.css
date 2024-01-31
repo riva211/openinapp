@@ -1,0 +1,136 @@
+.heading{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/UI Type/text-2xl/[S] */
+font-family: Figtree;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+}
+
+.tablehead{
+    color: var(--Light-Bulma, #231F20);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Figtree;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+
+}
+
+.heading{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/UI Type/text-2xl/[S] */
+font-family: Figtree;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+}
+
+.tablehead{
+    color: var(--Light-Bulma, #231F20);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Figtree;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+
+}
+
+#file-data{
+    display: none;
+}
+
+label{
+    width: 596px;
+height: 367px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+border: 1px dashed  #EBEBEB;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #605BFF;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200%;
+    min-height: 100vh;
+    background: linear-gradient();
+}
+
+.box {
+   max-width: 1000px;
+   background-color: rgb(255, 255, 255);
+   margin-bottom: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.uploadable{
+    width: 596px;
+    min-height: 280px;
+    background-color: #ffffff0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed #c2cbd082;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.uploadable span {
+    font-size: 70px;
+}
+.uploadable p{
+    margin-top: 30px;
+
+}
+
+.excel{
+    height: 70px;
+}
+
+.upload-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: rgb(12, 50, 218);
+   color: white;
+   height: 50px;
+   margin-top: 20px;
+   width: 596px;
+}
+.disabled{
+    background-color: rgb(115, 136, 233);
+    pointer-events: none;
+}
+
+.form{
+    background-color: rgb(255, 255, 255);
+    width: 120%;
+   
+    /* flex-direction: column; */
+}
