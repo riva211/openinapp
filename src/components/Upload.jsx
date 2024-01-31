@@ -90,7 +90,7 @@ function Upload() {
       </div> */}
         <form action='' className='form'>
           <input type="file" name="file-data"  onChange={(e) => { fileUploadChnages(e) }} id="upload" accept='.csv,.xls' hidden/>
-          <label for='upload' className='uploadable'>
+          <label for='upload' className='uploadable '>
           <span><img className='excel' src='https://download.logo.wine/logo/Microsoft_Excel/Microsoft_Excel-Logo.wine.png' alt='excelLogo'/></span>
           <p>{inputdata?inputdata.name:'Drag your excel sheet here or browse'}</p>
           </label>

@@ -48,7 +48,7 @@ line-height: 24px; /* 171.429% */
     display: none;
 }
 
-label{
+.label1{
     width: 596px;
 height: 367px;
 flex-shrink: 0;
